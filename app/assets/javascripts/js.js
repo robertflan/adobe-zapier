@@ -1,6 +1,8 @@
 $( document ).on('turbolinks:load',function() {
 
-   
+	 $('.rotate-icon').click(function(){
+    	$(this).toggleClass("rotate");
+    });
 
 	//LOADER/SPINNER
 	$(window).bind("load", function() {
