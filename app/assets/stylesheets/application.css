@@ -17,7 +17,9 @@
 	#header .mobile-menu{
 		display: none;
 	}
-
+	 footer .mobile-version{
+	 	display: none;
+	 }
 	#header .main-menu.desktop-menu{
 		margin-right: 60px;
 		margin-top: 10px;
@@ -325,6 +327,30 @@
 
 	@media only screen and ( min-width:600px) and ( max-width:767px ){
 
+		#invoice .invoice-list-item ul li{
+			padding: 5px !important;
+		}
+		#invoice .invoice-list-item .item-download{
+			width: 38px;
+			height: 38px; 
+    		top: 13px;
+    		background-size: cover;
+		}
+		#invoice .invoice-list-item .item-print {
+		    top: 13px;
+		    border-right: 2px solid grey;
+		    width: 38px;
+		    height: 38px;
+		    background-size: cover;
+		}
+		#invoice .invoice-list-item {
+		    margin-top: -31px;
+		}
+
+		#billing .container .tab-content{
+			padding: 10px 20px;
+		}
+
 		.flex-content {
 		    top: 5%;
 		    width: 95%;
@@ -416,6 +442,54 @@
 	
 
 	@media only screen and ( min-width: 320px) and ( max-width: 599px ){
+		#invoice .invoice-list-item ul li{
+			padding: 5px !important;
+		}
+		footer .mobile-version{
+			display: block !important;
+		}
+		.copyright{
+			font-size: 12px;
+		}
+		.desktop-version{
+			display: none;
+		}
+		#invoice .invoice-list-item .item-download{
+			width: 23px;
+			height: 23px; 
+    		top: 8px;
+    		background-size: cover;
+		}
+		#invoice .invoice-list-item .item-print {
+		    top: 8px;
+		    border-right: 2px solid grey;
+		    width: 23px;
+		    height: 23px;
+		    background-size: cover;
+		}
+		#invoice .invoice-list-item {
+		    margin-top: -31px;
+		}
+
+		#account-header .go-zapier{
+			padding: 10px 20px;
+			font-size: 14px;
+		}
+		#invoice .invoice-list-item{
+			font-size: 10px;
+		}
+		#invoice .invoice-list-item ul li{
+			padding: 2px !important;
+		}
+		#invoice .invoice-list-item .card-block{
+			padding: 10px 10px;
+		}
+		.pdf-btn{
+			padding: 10px 20px;
+		}
+		#billing .container .tab-content{
+			padding: 10px 10px;
+		}
 		#banner{
 			margin-top: 10px;
 		}
