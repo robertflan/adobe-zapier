@@ -1,0 +1,546 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+/*--- General */
+	#header .mobile-menu{
+		display: none;
+	}
+
+	#header .main-menu.desktop-menu{
+		margin-right: 60px;
+		margin-top: 10px;
+	}
+	.text-center {
+    	text-align: center!important;
+}
+	.text-left {
+		text-align: left !important;
+	}
+	.text-right {
+		text-align: right !important;
+	}
+	@media screen and (max-width: 1200px) {
+		#header .main-menu.desktop-menu, #header .desktop-cart{
+			display: none;
+		}
+
+		#header .mobile-menu{
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: 400px){
+		#header .navbar-brand{
+			margin: 2px;
+		}
+		#header .mobile-menu .nav-item{
+			padding: 13px 10px;
+		}
+		#header .mobile-menu .count-cart{
+			margin: 0;
+			display: block;
+			text-align: center;
+		}
+		#header .mobile-menu .mobile-cart .nav-link{
+			line-height: 24px;
+			padding: 0;
+		}
+	}
+
+	@media screen and (max-width: 767px){/*
+		#list .pdf-container .mobile-hidden{
+			display: none;
+		}*/
+		.intro-pic{
+			display: none;
+		}
+		#list .pdf-container {
+		    background-image: url(list-icon.jpg);
+		    padding-top: 70px;
+		}
+		.container h2.price{
+			width: 100px;
+			height: 100px;
+			border-radius:50px;
+			border: 3px solid #E9EAE9;
+			font-size: 60px;
+			color: #344146;
+			position: relative;
+			bottom: -110px;
+			font-weight: 500;
+			z-index: 100;
+		    background: #fff;
+		    left: 10px;
+		    span{
+		    	text-shadow: -4px 2px 2px #E9EAE9;
+		    }
+		}
+		#footer{
+			text-align: center;
+		}
+		#footer a{	
+			font-size: 35px;
+		}
+		#footer a:hover{
+			text-decoration: none;
+		}
+		.footer-left span{
+			border: none;
+			display: block;
+			max-height: initial;
+			padding: 10px 0;
+		}
+		.footer-left span.social-link{
+			display: inline-block;
+			padding: 30px 15px;
+		}
+		.footer-left span.social-link img{
+			width: 44px;
+		}
+		.footer-left .copyright{
+			font-size: 24px;
+			padding: 25px; 
+		}
+		.footer-right{
+			display: none;
+		}
+		#footer .mobile-footer-logo{
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		#feature img{
+			width: 80%;
+			margin: 15px;
+		}
+
+		.page-caption h2{
+			font-size: 22px;
+		}
+		.page-caption h1{
+			font-size: 28px;
+		}
+	}
+	
+/* general ---*/
+
+
+	img.mob-slider{
+		display: none !important;
+	}
+	.mobile-gallery{
+		display: none;
+	}	
+
+	@media screen and (max-width: 1200px) {
+		
+		#main-slider .flex-control-thumbs img{
+			width: 60px;
+			height: 60px;
+			border-width: 4px;
+		}
+		#main-slider .flex-control-thumbs li{
+			margin: 0 18px;
+		}
+		#main-slider .flex-control-thumbs{
+			bottom: -35px;
+		}
+
+		#convince img{
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		img.mob-slider{
+			display: block !important;
+		}
+		img.web-slider{
+			display: none !important;
+		}
+		img.progress-arrow{
+			display: none !important;
+		}
+
+		.mobile-gallery{
+			display: block;
+		}
+		.desktop-gallery{
+			display: none;
+		}
+
+		.portfolio-category{
+			text-align: center;
+		}
+		.portfolio-category p{
+			margin-right: 0;
+		}
+		.portfolio-category .row div{
+			margin-top: 40px;
+		}
+		#single-product-banner img, .about-banner img{
+			width: 90%;
+		}
+		#why-banner h2{
+			font-size: 25px;
+		}
+		#why-banner h1{
+			font-size: 27px;
+		}
+		.why-images img{
+			width: 55vw;
+		}
+		#description h3{
+			padding: 0;
+		}
+		#description p{
+			padding: 0;
+		}
+		#description img{
+			width: 70%;
+			margin: 5px;
+		}
+		#description a{
+			margin: 10px 0; 
+		}
+	}
+	@media screen and (max-width: 543px){
+		#convince img{
+			width: initial;
+		}
+	}
+	@media only screen and ( min-width:768px) and ( max-width:980px ){
+		.progress-div{
+			border: none;
+		}
+		#banner .pdf-container{
+			background-position-x: -200px;
+		}
+	}
+	@media screen and (max-width: 1200px){
+		 #login{
+			display: none !important;
+		}
+	}
+	@media only screen and ( min-width:980px) and ( max-width:1024px ){
+		.progress-div{
+			border: none;
+		}
+		#banner .pdf-container{
+			background-position-x: -200px;
+		}
+	}
+	@media only screen and ( min-width:768px) and ( max-width:960px ){
+		.flex-inner {
+		    max-width:700px !important;
+		}
+		.container h2.price{
+			width: 100px !important;
+			height: 100px ! important;
+			border-radius:50px !important;
+			border: 3px solid #E9EAE9;
+			font-size: 80px !important;
+			color: #344146;
+			position: relative;
+			bottom: -70px !important;
+			font-weight: !important;
+			z-index: 100;
+		    background: #fff;
+		    left: 10px;
+		    span{
+		    	text-shadow: -4px 2px 2px #E9EAE9;
+		    }
+		}
+
+		#banner .banner-container h1{
+			font-size: 1.5rem !important;
+			text-shadow: -2px 1px 2px #DFE0DF;
+		}
+		#banner .banner-container{
+			padding:15px 20px;
+			height: 250px !important;
+		}
+		#banner .btn{
+			padding: 5px 70px !important;
+		}
+		.slider-heading h1 {
+		    font-size: 20px;
+		    line-height: 36px;
+		}
+
+		.slider-text p {
+		    font-size: 15px;
+		    line-height: 22px;
+		}
+
+		.flex-content {
+		    top: 8%;
+		}
+
+		.slider-text {
+		    margin: 20px 0px;
+		}
+
+		.slider-butt a {
+		    margin: 0px;
+		    padding: 12px 25px;
+			font-size:21px;
+		}
+		#product-progress .animation{
+			left: 8% !important;
+		}
+		#product-progress .progress-ad{
+			padding: 0;
+		}
+		img.progress-arrow{
+			right: -15px !important;
+		}
+
+		.flexslider1 .flex-control-thumbs img {
+		    width: 65px !important;
+		    height: 65px !important;
+		}
+
+	}
+
+	@media only screen and ( min-width:600px) and ( max-width:767px ){
+
+		.flex-content {
+		    top: 5%;
+		    width: 95%;
+		}
+
+		#banner .banner-container h1{
+			font-size: 1.9rem !important;
+			text-shadow: -6px 3px 4px #DFE0DF;
+		}
+
+		#list .row .col-sm-12 {
+			background-image: url(list-icon.jpg);
+		}
+
+		.main-flex {
+		    width:100% !important;
+			text-align:center;
+		}
+
+		.slider-heading h1 {
+		    font-size: 32px;
+			line-height: 46px;
+		}
+
+		.slider-text {
+		    margin: 20px 0px 10px;
+		}
+
+		.slider-butt a{
+			font-size:25px;
+		}
+
+		#product-progress .animation{
+			left: 35% !important;
+		}
+		#product-progress .progress-ad{
+			padding: 30;
+		}
+		#product-progress .progress-ad h3{
+			font-size: 35px;
+		}
+		#product-progress .progress-ad span{
+			font-size: 20px;
+		}
+
+		.testimonial-heading h1{
+			background:none;
+		}
+
+		.testimonial-heading h1 {
+		    padding: 0px 80px;
+		    font-size: 34px;
+		}
+
+		.new-slides li p {
+		    margin: 0;
+		    padding: 70px 10px 120px;
+		    background-position: top center, bottom center;
+		}
+
+	}
+
+	@media only screen and ( min-width: 460px) and ( max-width:559px ){
+		#banner .pdf-container{
+			background-image: url(mobile-banner.png);
+		}
+		.flex-inner {
+		    max-width:400px !important;
+		}
+		#banner .pdf-container{
+			background: none;
+		}
+
+		.slider-text p {
+		    font-size: 13px !important;
+		    line-height:20px !important;
+		}
+
+		.slider-heading h1 {
+		    font-size: 27px !important;
+			line-height: 42px !important;
+		}
+
+		.slider-butt {
+		    margin: 12px 0px 0px !important;
+		}
+
+	}
+	
+
+	@media only screen and ( min-width: 320px) and ( max-width: 599px ){
+		#banner{
+			margin-top: 10px;
+		}
+		 #login{
+			display: none;
+		}
+		#header .navbar .login{
+			margin: 0px 30px;
+		}
+		#banner .banner-container h1 {
+		    text-shadow: -1px 1px 1px #DFE0DF !important;
+		    margin-top: 50px !important;
+		    text-align: center !important;
+		}
+		#banner .banner-container h1:after{
+			display: none;
+		}
+
+		#banner .btn {
+			width: 100%;
+		}
+		.login-shadow {
+		    background-color: #CBCCCB;
+		    width: 180px;
+		    height: 10px;
+		    position: relative;
+		    top: 49px;
+		    left: 48px;
+		}
+		#banner .pdf-container{
+			background-image: url(mobile-banner.png);
+		}
+		#banner .banner-container{
+			padding: 10px 20px
+		}
+		#introduction h1, p, h2{
+			text-align: center !important;
+		}
+		#header .logo-img {
+		    width: 150px;
+		}
+		#list .row .col-sm-12 {
+			background-image: url(list-icon.jpg);
+		}
+		.btn{
+			width: 100%;
+		}
+		#header nav {
+		    padding: 0 30px;
+		}
+		#banner .banner-container h1{
+			font-size: 1.5rem !important;
+			text-shadow: -6px 3px 4px #DFE0DF;
+		}
+		.navbar-side-item{
+			font-size: 10px !important;
+		}
+		.progress-div{
+			border: none;
+		}
+
+		.flex-control-nav{
+			display:none;
+		}
+
+		.main-flex {
+		    width: 100% !important;
+			text-align:center;
+		}
+
+		.flex-inner {
+		    max-width: 300px;
+		}
+
+		.slider-heading h1 {
+		    font-size: 18px;
+		    font-weight: 100;
+		    line-height: 26px;
+		}
+
+		.slider-text p {
+		    font-size:8px;
+		    line-height: 12px;
+		}
+
+		.slider-text {
+		    margin:8px 0px 0px;
+		}
+
+		.slider-butt a {
+		    padding: 12px 25px;
+		    font-size: 14px;
+		}
+
+		.slider-butt {
+		    margin: 5px 0px 0px;
+		}
+
+		.flex-content {
+		    top: 5% !important;
+		}
+		#product-progress .animation{
+			left: 23% !important;
+		}
+
+		.experience-ad{
+			margin-top: 50px;
+		}
+
+		.testimonial-heading h1{
+			font-size:29px;
+			background:none;
+		}
+
+		.new-slides li p {
+		    margin: 0px 0px;
+		    padding: 70px 10px 120px;
+		    font-size: 16px;
+		    line-height: 28px;
+		    background-position: top center, bottom center;
+		}
+		table .mask{
+			font-size: 16px;
+		}
+		.green-btn{
+			font-size: 20px;
+		}
+		#why-banner{
+			height: 360px;
+		}
+		.blog-container{
+			padding: 20px 5px;
+		}
+
+	}
