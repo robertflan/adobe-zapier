@@ -683,6 +683,11 @@ URL: https://github.com/superbestdev/printontotheme
 	#account-header {
 		padding: 40px 0px 40px 0px;
 		background-image: url(white-tile.jpg);
+		h1{
+			text-shadow: -4px 4px 4px #EBECEB;
+			font-weight: 700;
+			font-size: 50px;
+		}
 		.go-zapier{    
 			background: url(btn-title.jpg);
 		    margin-top: 20px;
@@ -696,33 +701,49 @@ URL: https://github.com/superbestdev/printontotheme
 		}
 	}
 	#billing {
+		.nav-tabs{
+			border-bottom: none;
+		}
 		margin-top: 100px;
 		.nav .nav-item a{
 			display: inline-table;
 			color: #4C565B;
 	}	.nav .nav-account{
-			font-size: 25px;
-			margin-top: -20px;
+			font-size: 30px;
+			margin-top: -18px;
+			color: #AEAFAE!important;
 	}
-
+		.nav .active{
+			border-bottom: 3px solid #DA1A24;
+			font-style: bold; 
+		}
 		.container .tab-content{   
 			background: url(white-tile.jpg);
 		    margin-top: 20px;
 		    border-radius: 0;
+		    border: 2px solid #EEEFEE;
 		    padding: 18px 70px;
 		    font-size: 18px;
 		    color: #fff;
 		    h1{
-		    	color: #344146;
+		    	color: #AEAFAE;
 		    }
 		    .row label{
 		    	color: #FE4F26; 
+		    }
+		    .btn{
+		    	float: right;
+		    	background: url(btn-title.jpg);
+		    	border-radius: 0;
+		    	padding: 10px 40px;
+		    	color: #fff;
 		    }
 
 	}
 
 	}
 	#invoice{
+		margin-top: 60px;
 		table td{
 			height: 73px;
 		}
@@ -747,13 +768,39 @@ URL: https://github.com/superbestdev/printontotheme
 		}
 		ul li{
 			display: inline-table;
+			a{
+				color: #485358;
+			}
 		}
+		.nav-tabs{
+			border-bottom: 0;
+		}
+		.invoice-list{ 
+			.row{
+				margin-top: 30px;
+			}
+			.row div{
+			display: inline-table;
+		}
+			.title-date{
+				width: 30%;
+				margin-left: 15%;
+			}
+			.title-membership{
+				width: 20%;
+			}
+		}
+		
 		.invoice-list-item ul li{
 			border:  2px solid grey;
 			border-right: 0px;
 			padding: 20px 20px;
 			margin-left: -5px;
 			background: #F4F5F4;
+		}
+		h2 {
+			color: #AEAFAE;
+			margin-top: -10px;
 		}
 
 		.invoice-list-item{
@@ -775,14 +822,14 @@ URL: https://github.com/superbestdev/printontotheme
 			}
 			.item-download{
 				position: relative;
-				top: 27px;
+				top: 26px;
 				width: 68px;
 				height: 68px;
 				background: url(download.png);
 			}
 			.item-print{
 				position: relative;
-				top: 27px;
+				top: 26px;
 				border-right: 2px solid grey;
 				width: 68px;
 				height: 68px;
