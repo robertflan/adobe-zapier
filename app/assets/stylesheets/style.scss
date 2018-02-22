@@ -163,6 +163,11 @@ body, html{
 		-webkit-animation-delay: -0.16s;
 		animation-delay: -0.16s;
 	}
+	.section-title-shadow{
+			font-weight: 800;
+			font-size: 60px;
+			text-shadow: -5px 5px 1px #DFE0DF;
+	}
 	@-webkit-keyframes bouncedelay {
 		0%, 80%, 100% {
 			-webkit-transform: scale(0.0)
@@ -428,6 +433,7 @@ body, html{
 	}
 	.section-title {
 		color: #CBCCCB;
+		margin-bottom: 30px;
 	}
 	#introduction h2.make {
 		font-weight: 300;
@@ -912,9 +918,38 @@ body, html{
 		}
 
 	}
+	.confirm-bill{
+		padding: 20px 30px;
+		border: 3px solid #E2E3E2;
+		background: url(white-tile.jpg);
+		max-height:600px;
+		.btn{
+			background: url(btn-title.jpg);
+			border-radius: 0;
+			padding: 20px 70px;
+			color: #fff;
+		} 
+	}
+	#privacy .nav-tabs .nav-item a{
+    	word-wrap: break-word;
+	}
+	#privacy .nav-tabs--left .nav-link {
+    	white-space: normal !important;
+    	h4{
+    		color: #344146 !important;
+    	}
+	}
 	footer {
 		margin-top: 100px;
 		color: #fff;
+		a{
+			color: #fff;
+		}
+		a:hover{
+			color: #fff;
+			cursor: pointer;
+			opacity: 0.7;
+		}
 		#about-us .pdf-container{
 			background-image: url(list-icon.jpg);
 			padding: 70px 0px;
