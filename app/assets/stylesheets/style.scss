@@ -642,6 +642,7 @@ body, html{
 				color: #344146;
 				font-weight: 500;
 				padding: 10px 40px;
+				background: #fff;
 			}
 		}
 		.list-group-item{
@@ -667,6 +668,9 @@ body, html{
 		}
 		form{
 			margin-top: 50px;
+			label{
+				text-transform: uppercase;
+			}
 		}
 		.btn{
 			background: url(btn-title.jpg);
@@ -728,8 +732,15 @@ body, html{
 			padding: 18px 70px;
 			font-size: 18px;
 			color: #fff;
-			h1{
-				color: #AEAFAE;
+			span{
+				color: #344146;
+				font-weight: 700;
+				text-transform: uppercase;
+				font-size: 30px;
+			}
+			img{
+				margin-left: -20px;
+				margin-top: -10px;
 			}
 			.row label{
 				color: #FE4F26; 
@@ -856,6 +867,51 @@ body, html{
 			margin-top: 0px;
 		}
 	}
+	#register{
+		.register-title{
+			font-weight: 800;
+			font-size: 60px;
+			text-shadow: -5px 5px 1px #DFE0DF;
+		}
+		.container .tab-content{   
+			background: url(white-tile.jpg);
+			margin-top: 20px;
+			border-radius: 0;
+			border: 2px solid #EEEFEE;
+			padding: 18px 70px;
+			font-size: 18px;
+			color: #fff;
+			label{
+				text-transform: uppercase;
+			}
+			.billing-title{
+				color: #344146;
+				font-weight: 700;
+				text-transform: uppercase;
+				font-size: 30px;
+			}
+			.rotate-icon{
+				margin-left: -20px;
+				margin-top: -10px;
+			}
+			.row label{
+				color: #FE4F26; 
+			}
+			.btn{
+				float: right;
+				background: url(btn-title.jpg);
+				border-radius: 0;
+				padding: 10px 40px;
+				color: #fff;
+			}
+			.payment-container, .confirm{
+				margin-top: 30px;
+			}
+
+
+		}
+
+	}
 	footer {
 		margin-top: 100px;
 		color: #fff;
@@ -872,6 +928,9 @@ body, html{
 		}
 		.find-us{
 			font-size: 30px;
+		}
+		.find-us-on{
+			margin-top: 30px;
 		}
 	}
 /* account page*/

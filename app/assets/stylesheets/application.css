@@ -347,7 +347,7 @@
 		    margin-top: -31px;
 		}
 
-		#billing .container .tab-content{
+		#billing .container .tab-content, #register .container .tab-content{
 			padding: 10px 20px;
 		}
 
@@ -492,9 +492,10 @@
 		.pdf-btn{
 			padding: 10px 20px;
 		}
-		#billing .container .tab-content{
+		#billing .container .tab-content, #register .container .tab-content{
 			padding: 10px 10px;
 		}
+
 		#banner{
 			margin-top: 10px;
 		}

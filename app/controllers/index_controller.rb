@@ -3,7 +3,10 @@ class IndexController < ApplicationController
 		
 	end
 
-	def account
+	def membership
+		
+	end
+	def trial
 		
 	end
 end

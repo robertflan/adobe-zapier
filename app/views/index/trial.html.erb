@@ -1,0 +1,39 @@
+<section id="user-login">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+
+				<span>This is Exciting</span>
+                 <%= image_tag 'emotion.png', class: '', alt: '' %>
+				<p>You're just seconds away from your free trial access to all our features, automations and more.</p>
+				<form>
+				  <div class="form-group">
+				    <label for="useremail">EMAIL ADDRESS</label>
+				    <input type="email" class="form-control" id="useremail" placeholder="hello@example">
+				  </div>
+				  <div class="form-group">
+					  <div class="row">
+					  	<div class="col-sm-6 col-xs-12">
+					    <label for="first_name">First name</label>
+					    <input type="text" class="form-control" id="first_name" placeholder=""></div>
+					  	<div class="col-sm-6 col-xs-12">
+					    <label for="second_name">Second name</label>
+					    <input type="text" class="form-control" id="second_name" placeholder=""></div>
+					  </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="userpassword">choose your password</label>
+				    <input type="password" class="form-control" id="userpassword" placeholder="at least 8 characters,please">
+				  </div>
+				  <div class="form-group">
+				    <label for="userpasswordconfirm">retype your password</label>
+				    <input type="password" class="form-control" id="userpasswordconfirm" placeholder="one more time for good measure">
+				  </div>
+				</form>
+         		 <%= link_to 'Start Your Trial ', register_path, class: 'btn' %>
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" id="login-back"></div>
+		</div>
+		</div>
+	</div>
+</section>

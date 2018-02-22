@@ -1,0 +1,100 @@
+<section id="register">
+	<div class="container">
+		<div class="row">
+				<span class="register-title">Let's get it started in here</span>
+                 <%= image_tag 'emotion.png', class: '', alt: '' %>
+				<p>You're just seconds away from your free trial access to all our features, automations and more.</p>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="tab-content">
+					<div class="tab-pane fadein show active" id="profile" role="tabpanel">
+						<div class="container">
+				        	<%= image_tag 'glyphicons-174-play.png', class: 'rotate-icon', alt: '' %>
+						   <span class="billing-title">My profile</span>
+						   <div class="row">
+							   	<div class="col-lg-4 col-xs-12">
+								  <div class="form-group">
+								    <label for="useremail">EMAIL ADDRESS</label>
+								    <input type="email" class="form-control" id="useremail" placeholder="hello@example">
+								  </div>
+							   	</div>
+							   	<div class="col-lg-4 col-xs-12">
+								  <div class="form-group">
+								    <label for="firstname">First Name</label>
+								    <input type="text" class="form-control" id="firstname" placeholder="john">
+								  </div>
+							   	</div>
+							   	<div class="col-lg-4 col-xs-12">
+								  <div class="form-group">
+								    <label for="lastname">Last Name</label>
+								    <input type="text" class="form-control" id="lastname" placeholder="Doe">
+								  </div>
+								</div>
+						   </div>
+						   <div class="row">
+						   		<div class="col-lg-6 col-xs-12">
+								  <div class="form-group">
+								    <label for="changeps">EMAIL ADDRESS</label>
+								    <input type="password" class="form-control" id="changeps" placeholder="">
+								  </div>
+						   		</div>
+						   		<div class="col-lg-6 col-xs-12">
+								  <div class="form-group">
+								    <label for="confirmps">EMAIL ADDRESS</label>
+								    <input type="password" class="form-control" id="confirmps" placeholder="">
+								  </div>
+						   		</div>
+						   </div>
+						 </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="tab-content">
+					<div class="tab-pane fadein show active" id="profile" role="tabpanel">
+						<div class="container">
+				        	<%= image_tag 'glyphicons-174-play.png', class: 'rotate-icon', alt: '' %>
+						   <span class="billing-title">My Billing info</span>
+						   <div class="row">
+							   	<div class="col-lg-6 col-xs-12">
+								  <div class="form-group">
+								    <label for="name_bill">name as it appears on your card</label>
+								    <input type="text" class="form-control" id="name_bill" placeholder="hello@example">
+								  </div>
+							   	</div>
+							   	<div class="col-lg-6 col-xs-12">
+								  <div class="form-group">
+								    <label for="card_number">card number</label>
+								    <input type="text" class="form-control" id="card_number" placeholder="john">
+								  </div>
+							   	</div>
+						   </div>
+						   <div class="row">
+						   		<div class="col-lg-3 col-xs-12">
+								  <div class="form-group">
+								    <label for="security_code">security code</label>
+								    <input type="text" class="form-control" id="security_code" placeholder="">
+								  </div>
+						   		</div>
+						   		<div class="col-lg-3 col-xs-12">
+								  <div class="form-group">
+								    <label for="expiration">expiration date</label>
+								    <input type="text" class="form-control" id="expiration" placeholder="">
+								  </div>
+						   		</div>
+						   		<div class="col-lg-4 col-xs-12 payment-container">
+						            <span class="payment"><a href="#"><%= image_tag 'visa-icon.png', class: 'visa', alt: 'visa' %></a></span>
+						            <span class="payment"><a href="#"><%= image_tag 'master-icon.png', class: 'master', alt: 'master' %></a></span>
+						            <span class="payment"><a href="#"><%= image_tag 'express-icon.png', class: 'express', alt: 'express' %></a></span>
+						            <span class="payment"><a href="#"><%= image_tag 'discover-icon.png', class: 'discover', alt: 'discover' %></a></span>
+						   		</div>
+						   		<div class="col-lg-2 col-xs-12 confirm">
+						   			<button class="btn ">confirm</button>
+						   		</div>
+						   </div>
+						 </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
