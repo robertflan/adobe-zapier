@@ -435,15 +435,20 @@ body, html{
 		color: #CBCCCB;
 		margin-bottom: 30px;
 	}
-	#introduction h2.make {
+	#introduction{
+		margin-top: 50px;
+		h2.make {
 		font-weight: 300;
 	}
-	#introduction .intro-pic{
+	.intro-pic{
 		background-image: url(try-back.png);
 		background-repeat: no-repeat !important;
 		background-size: cover !important;
 		height: 380px;
 	}
+
+	}
+	
 	.pdf-btn{ 
 		background-image: url(list-icon.jpg);
 		border-radius: 0;
