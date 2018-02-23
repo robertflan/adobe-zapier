@@ -101,6 +101,17 @@ body, html{
 	.btn{
 		box-shadow: 0 16px 0 -8px rgba(0, 0, 0, .4);
 	}
+	.btn:hover {
+	    box-shadow: 0 9px 0 -8px rgba(0, 0, 0, .4);
+	    -webkit-transform: translate(0px, 10px);
+	    -ms-transform: translate(0px, 10px);
+	    transform: translate(0px, 10px);
+	    -webkit-transition: all linear 0.3s;
+	     color: #ff5026;
+	}
+	a:hover {
+	    color: #ff5026;
+	}
 	.main-container{
 		margin-top: 120px;
 	}
