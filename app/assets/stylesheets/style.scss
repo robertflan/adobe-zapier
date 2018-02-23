@@ -804,6 +804,40 @@ body, html{
 		table td{
 			height: 73px;
 		}
+		.right-side {
+		    /* display: -webkit-box; */
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    /* display: flex; */
+		    /* -webkit-box-pack: end; */
+		    /* -webkit-justify-content: flex-end; */
+		    -ms-flex-pack: end;
+		    justify-content: flex-end;
+		    -webkit-box-ordinal-group: 2;
+		    -webkit-order: 1;
+		    -ms-flex-order: 1;
+		    order: 1;
+		}
+		.invoice-button {
+		    border-style: solid;
+		    border-width: 2px 2px 2px 1px;
+		    border-color: #fff;
+		}
+		.invoice-button {
+		    position: static;
+		    top: 0px;
+		    right: 0px;
+		    display: block;
+		    height: 4em;
+		    margin-right: -2px;
+		    padding: 12px;
+		    -webkit-transition: all 200ms cubic-bezier(.175, .885, .32, 1.275);
+		    transition: all 200ms cubic-bezier(.175, .885, .32, 1.275);
+		}
+		.invoice-button:hover {
+		    border-bottom-width: 6px;
+		    border-bottom-color: #db1a23;
+		}
 		.rotate-icon{
 			-webkit-transition: all 0.5s;
 			-moz-transition: all 0.5s;
@@ -840,7 +874,7 @@ body, html{
 				display: inline-table;
 			}
 			.title-date{
-				width: 30%;
+				width: 50%;
 				margin-left: 15%;
 			}
 			.title-membership{
@@ -849,11 +883,16 @@ body, html{
 		}
 		
 		.invoice-list-item ul li{
-			border:  2px solid grey;
+			border:  2px solid #354146;
 			border-right: 0px;
 			padding: 20px 20px;
 			margin-left: -5px;
-			background: #F4F5F4;
+			background: #354146;
+			color: #fff;
+			span{
+   				 border-left: 3px solid #495a61;
+   				 padding-left: 1em;
+			}
 		}
 		h2 {
 			color: #AEAFAE;
@@ -864,15 +903,17 @@ body, html{
 		}
 
 		.invoice-list-item{
-			margin-top: -50px;
+			margin-top: -16px;
 			ul{
 				padding-top: 0px !important;
+				background: #354146;
+				border-bottom: 1px solid #495a61;
 			}
 			.item-date{
-				width:32%;
+				width:60%;
 			}
 			.item-icon{
-				width: 10%;
+				width: 20%;
 			}
 			.item-month{
 				width: 20%;
