@@ -95,7 +95,9 @@ URL: https://github.com/superbestdev/printontotheme
 body, html{
 		// font-family: 'Roboto-Light';
 		color: #344146;
+		position: relative;
 	}
+	
 	.btn{
 		box-shadow: 0 16px 0 -8px rgba(0, 0, 0, .4);
 	}
@@ -404,7 +406,7 @@ body, html{
 		font-weight: 500;
 	}
 	#banner{
-		margin-bottom: 2em;
+		margin-bottom: -6em;
 	    padding-top: 4em;
 	    padding-bottom: 4em;
 	    background-image: url(orange_masthead.jpg);
@@ -472,6 +474,7 @@ body, html{
 		margin-bottom: 30px;
 	}
 	#introduction{
+		padding-top: 120px;
 		margin-top: 50px;
 		h2.make {
 		font-weight: 300;
@@ -557,6 +560,7 @@ body, html{
 	}
 	#list{
 		margin-top: 50px;
+		margin-bottom: -100px;
 		background: url(red-pattern.gif);
 		background-size: auto;
     	background-attachment: fixed;
@@ -603,6 +607,7 @@ body, html{
 
 	}
 	#video{
+		padding-top: 100px;
 		margin-top: 100px;
 		text-align: center;
 		.btn{
@@ -628,6 +633,7 @@ body, html{
 		}
 	}
 	#zapier-new{
+		margin-bottom: -120px;
 		.pdf-container{
 			padding: 80px 10px 10px 10px;
 			height: 400px;
@@ -649,6 +655,7 @@ body, html{
 	}
 	#pricing{
 		margin-top: 100px;
+		padding-top: 120px;
 		.row{
 			margin-top: -60px;
 		}

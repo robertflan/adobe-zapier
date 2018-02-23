@@ -3,7 +3,27 @@ $( document ).on('turbolinks:load',function() {
 	 $('.rotate-icon').click(function(){
     	$(this).toggleClass("rotate");
     });
+	 $(".navbar ul li a").on('click', function(e) {
+	 	 	console.log("ok");
 
+		   // prevent default anchor click behavior
+		   e.preventDefault();
+
+		   // store hash
+		   var hash = this.hash;
+
+		   // animate
+		   $('html, body').animate({
+		       scrollTop: $(hash).offset().top
+		     }, 1000, function(){
+
+		       // when done, add hash to url
+		       // (default click behaviour)
+		       window.location.hash = hash;
+		     });
+		   return false;
+
+		});
 	//LOADER/SPINNER
 	$(window).bind("load", function() {
 
@@ -26,27 +46,27 @@ $( document ).on('turbolinks:load',function() {
 	    $('#navbarSide').removeClass('reveal');
 	    $('.overlay').hide();
 	  });
-	$('.flexslider').flexslider({
-        animation: "slide",
-        controlNav: "thumbnails",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
+	// $('.flexslider').flexslider({
+ //        animation: "slide",
+ //        controlNav: "thumbnails",
+ //        start: function(slider){
+ //          $('body').removeClass('loading');
+ //        }
+ //      });
 
-	$('.flexslider1').flexslider({
-        animation: "slide",
-        controlNav: "thumbnails",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
+	// $('.flexslider1').flexslider({
+ //        animation: "slide",
+ //        controlNav: "thumbnails",
+ //        start: function(slider){
+ //          $('body').removeClass('loading');
+ //        }
+ //      });
 
-	$('.flexslider1 .flex-control-nav li').each(function(index, element){
-		setTimeout( function(){
-				    $(element).addClass('animated slideOutDown');
-				  }, (100 * index));
-	});
+	// $('.flexslider1 .flex-control-nav li').each(function(index, element){
+	// 	setTimeout( function(){
+	// 			    $(element).addClass('animated slideOutDown');
+	// 			  }, (100 * index));
+	// });
 
 	$(window).scroll(function(){
 		if($('#testimonial').length){
@@ -91,7 +111,6 @@ $( document ).on('turbolinks:load',function() {
 	$('.flex-control-thumbs img').on('mouseout', function(){
     	$('.flex-control-thumbs li span.thumb-over').remove();
     });	
- new WOW().init();
- AOS.init();
+ //AOS.init();
 	
 });
