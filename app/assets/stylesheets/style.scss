@@ -119,6 +119,35 @@ body, html{
 		background-repeat: no-repeat !important;
 		background-size: cover !important;
 	}
+	.grey-pattern {
+	    background-image: url(grey-pattern.gif);
+	    background-position: 0px 100%;
+	}
+	.white-pattern {
+	    background-color: transparent;
+	    background-image: url(white-pattern.gif);
+	    background-position: 0px 100%;
+	    color: #354146;
+	}
+	.black-pattern {
+	    background-color: transparent;
+	    background-image: url(black-pattern.gif);
+	    background-position: 0px 100%;
+	    color: #fff;
+	}
+	.orange-pattern {
+	    background-color: transparent;
+	    background-image: url(orange-pattern.gif);
+	    background-position: 0px 100%;
+	    color: #fff;
+	}
+	.convert-icon {
+	    width: 8em;
+	    padding: 1em;
+	}
+	.pace-low {
+	    margin-bottom: 2em;
+	}
 	/*---- preloader */
 	.spn_hol {
 		position: fixed;
@@ -472,6 +501,15 @@ body, html{
 		-o-transition: all linear 0.5s;
 		-webkit-transition: all linear 0.5s; 
 	}
+	#started .container{
+		.content-tile {
+	    margin-bottom: 1em;
+	    padding: 3em;
+	    box-shadow: 0 25px 0 -15px rgba(0, 0, 0, .5);
+	    -webkit-transition: all 200ms cubic-bezier(.175, .885, .32, 1.275);
+	    transition: all 200ms cubic-bezier(.175, .885, .32, 1.275);
+	}
+	}
 	#started .top-container {
 		background-image: url(getstarted-back.jpg);
 		background-repeat: no-repeat !important;
@@ -487,24 +525,22 @@ body, html{
 		background-size: cover !important;
 		height: 500px;
 		background-position-x: 15px;
+		margin-top: 30px;
 	}
 	#started .container h2 {
 		margin-top: 30px;
 	}
-	#started .container .row {
-		margin-top: 50px;
-		div {
-			height: 400px;
-			padding: 0px 30px;
-			h5{
-				position: relative;
-				margin-top: 50%;
-			}
-			p {
-				margin-top: 45px;
-			}
-		}
-	}
+	// #started .container .row {
+	// 	div {
+	// 		max-height: 400px;
+	// 		h5{
+	// 			position: relative;
+	// 		}
+	// 		p {
+	// 			margin-top: 45px;
+	// 		}
+	// 	}
+	// }
 	#started .container .row div h5:after {
 		content: '';
 		width: 50px;
@@ -513,21 +549,6 @@ body, html{
 		position: absolute;
 		left: 42.5%;
 		bottom: -25px;
-	}
-	#started .convert-div {
-		background-image: url(convert-back.jpg);
-		background-repeat: no-repeat !important;
-		background-size: cover !important;
-	}
-	#started .signature-div {
-		background-image: url(signature-back.jpg);
-		background-repeat: no-repeat !important;
-		background-size: cover !important;
-	}
-	#started .existing-div {
-		background-image: url(existing-back.jpg);
-		background-repeat: no-repeat !important;
-		background-size: cover !important;
 	}
 	#started .existing-div {
 		h5, p{
@@ -608,7 +629,6 @@ body, html{
 	}
 	#zapier-new{
 		.pdf-container{
-			background-image: url(new-back-title.jpg);
 			padding: 80px 10px 10px 10px;
 			height: 400px;
 		}
