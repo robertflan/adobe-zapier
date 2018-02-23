@@ -245,6 +245,9 @@
 			}
 		}
 		@media only screen and ( min-width:980px) and ( max-width:1024px ){
+			#video iframe{
+				height: 490px;
+			}
 			.progress-div{
 				border: none;
 			}
@@ -348,6 +351,9 @@
 		}
 
 		@media only screen and ( min-width:600px) and ( max-width:767px ){
+			#video iframe{
+				height: 290px;
+			}
 			#pricing .container h2.price {
 				width: 80px !important;
 				height: 80px !important;
@@ -452,6 +458,9 @@
 		}
 
 		@media only screen and ( min-width: 460px) and ( max-width:559px ){
+			#video iframe{
+				height: 180px;
+			}
 			#pricing .container h2.price {
 				width: 80px !important;
 				height: 80px !important;
@@ -491,6 +500,12 @@
 
 
 		@media only screen and ( min-width: 320px) and ( max-width: 599px ){
+			#video iframe{
+				height: 130px;
+			}
+			#bottom-footer .pdf-container{
+				min-height: 120px;
+			}
 			#banner .pdf-container .container {
 			    padding-top: 10px;
 			}

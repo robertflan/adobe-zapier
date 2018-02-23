@@ -593,6 +593,9 @@ body, html{
 			z-index: 1;
 
 		}
+		iframe{
+			height: 600px;
+		}
 	}
 	#zapier-new{
 		.pdf-container{
@@ -963,7 +966,6 @@ body, html{
 		#bottom-footer .pdf-container{
 			background: #344146;
 			padding: 20px 30px 10px 30px;
-			min-height: 120px;
 		}
 		ul li{
 			display: inline-block;
