@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'login', to: 'user#login'
   get 'account', to: 'user#account'
   get 'membership', to: 'index#membership'
-  get 'trial', to: 'index#trial'
+  get 'signup', to: 'index#signup'
   get 'register', to:'user#register'
   get 'confirm', to:'user#confirm'
   get 'privacy', to:'index#privacy'

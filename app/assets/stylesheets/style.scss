@@ -334,7 +334,7 @@ body, html{
 	#header .side-link.top {
 		transform: scaleY(2);
 		display: block;
-		color: #454f5b;
+		color: #fff;
 	}
 	#header .navbar-side .dropdown-menu {
 		top: initial;
@@ -597,7 +597,7 @@ body, html{
 	#zapier-new{
 		.pdf-container{
 			background-image: url(new-back-title.jpg);
-			padding-top: 80px;
+			padding: 80px 10px 10px 10px;
 			height: 400px;
 		}
 		text-align: center;
@@ -963,6 +963,7 @@ body, html{
 		#bottom-footer .pdf-container{
 			background: #344146;
 			padding: 20px 30px 10px 30px;
+			min-height: 120px;
 		}
 		ul li{
 			display: inline-block;

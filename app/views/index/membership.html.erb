@@ -1,3 +1,4 @@
+<% provide(:title, "Membership") %>
 <section id="pricing" class="text-center">
   <div class="container">
     <div class="row">
@@ -15,7 +16,7 @@
                       <li class="list-group-item">Monthly Analytics</li>
                   </ul>
                   <div class="card-block card-btn">
-                      <%= link_to 'Start your trial today!', trial_path, class: 'btn font-weight-bold' %>
+                      <%= link_to 'Start your trial today!', signup_path, class: 'btn font-weight-bold' %>
                   </div>
                 </div>
       </div>
@@ -33,7 +34,7 @@
                 <li class="list-group-item">Monthly Analytics</li>
             </ul>
             <div class="card-block">
-                <button type="button" class="btn font-weight-bold ">Get Started</button>
+                <%= link_to 'Get Started', signup_path, class: 'btn font-weight-bold' %>
             </div>
           </div>
       </div>
