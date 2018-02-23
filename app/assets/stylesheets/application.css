@@ -500,6 +500,9 @@
 
 
 		@media only screen and ( min-width: 320px) and ( max-width: 599px ){
+			.text-center-mobile{
+				text-align: center;
+			}
 			#video iframe{
 				height: 130px;
 			}
@@ -610,9 +613,6 @@
 				position: relative;
 				top: 49px;
 				left: 48px;
-			}
-			#banner .pdf-container{
-				background-image: url(mobile-banner.png);
 			}
 			#banner .banner-container{
 				padding: 10px 20px
