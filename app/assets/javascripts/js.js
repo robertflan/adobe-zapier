@@ -4,7 +4,6 @@ $( document ).on('turbolinks:load',function() {
     	$(this).toggleClass("rotate");
     });
 	 $(".navbar ul li a").on('click', function(e) {
-	 	 	console.log("ok");
 
 		   // prevent default anchor click behavior
 		   e.preventDefault();
