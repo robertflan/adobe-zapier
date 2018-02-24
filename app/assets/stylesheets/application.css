@@ -278,6 +278,13 @@
 			}
 		}
 		@media only screen and ( min-width:768px) and ( max-width:960px ){
+			#started .container .content-tile {
+			    margin-bottom: 1em;
+			    padding: 1em;
+			}
+			#started .container .convert-icon{
+				width: 6em;
+			}
 			.flex-inner {
 				max-width:700px !important;
 			}
