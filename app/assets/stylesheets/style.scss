@@ -1068,10 +1068,12 @@ body, html{
 		#about-us .pdf-container{
 			padding: 70px 0px;
 		}
-		#bottom-footer .pdf-container{
-			background: #344146;
+		#bottom-footer{
 			padding: 20px 30px 10px 30px;
-		}
+			#bottom-footer .pdf-container{
+				padding: 20px 30px 10px 30px;
+			}
+	}
 		ul li{
 			display: inline-block;
 		}
