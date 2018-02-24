@@ -540,10 +540,8 @@ body, html{
 	}
 	#started #bottom-container{
 		background-position-y: 370px;
-		background-image: url(getstarted-back.jpg);
 		background-repeat: no-repeat !important;
 		background-size: cover !important;
-		height: 500px;
 		background-position-x: 15px;
 		margin-top: 30px;
 	}
@@ -627,6 +625,10 @@ body, html{
 		padding-top: 100px;
 		margin-top: 100px;
 		text-align: center;
+		background-image: url(plus_strip_bg.jpg);
+	    background-position: 0px 50%;
+	    background-repeat: repeat;
+	    background-attachment: fixed;
 		.btn{
 			margin-top: 30px;
 		}
@@ -636,14 +638,6 @@ body, html{
 		}
 		.container{
 			z-index: 100;
-		}
-		.video-back{
-			padding: 100px 0px;
-			background-image: url(white-tile.jpg);
-			position: relative;    
-			top: -420px;
-			z-index: 1;
-
 		}
 		iframe{
 			height: 600px;
@@ -656,7 +650,7 @@ body, html{
 			height: 400px;
 		}
 		text-align: center;
-		margin-top: -50px;
+		margin-top: 6em;
 		h1, p{
 			color: #fff;
 			padding-bottom: 30px;

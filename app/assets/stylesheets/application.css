@@ -405,10 +405,6 @@
 				text-shadow: -6px 3px 4px #DFE0DF;
 			}
 
-			#list .row .col-sm-12 {
-				background-image: url(list-icon.jpg);
-			}
-
 			.main-flex {
 				width:100% !important;
 				text-align:center;
@@ -622,9 +618,6 @@
 			}
 			#header .logo-img {
 				width: 150px;
-			}
-			#list .row .col-sm-12 {
-				background-image: url(list-icon.jpg);
 			}
 			.btn{
 				width: 100%;
