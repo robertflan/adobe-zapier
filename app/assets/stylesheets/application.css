@@ -358,6 +358,13 @@
 		}
 
 		@media only screen and ( min-width:600px) and ( max-width:767px ){
+			.attention{
+				display: block;
+			    width: 50% !important;
+			    margin-right: auto;
+			    margin-bottom: 1em;
+			    margin-left: auto;
+			}
 			#video iframe{
 				height: 290px;
 			}
