@@ -3,14 +3,14 @@ $( document ).on('turbolinks:load',function() {
 	 $('.rotate-icon').click(function(){
     	$(this).toggleClass("rotate");
     });
-	 $(".navbar ul li a").on('click', function(e) {
+	 $(" .desktop-menu .nav-item a").on('click', function(e) {
 
 		   // prevent default anchor click behavior
 		   e.preventDefault();
 
 		   // store hash
 		   var hash = this.hash;
-
+		   console.log("menu clicked")
 		   // animate
 		   $('html, body').animate({
 		       scrollTop: $(hash).offset().top
