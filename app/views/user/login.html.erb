@@ -19,7 +19,16 @@
 				</form>
          		 <%= link_to 'Login', account_path, class: 'btn' %>
 			</div>
-			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" id="login-back"></div>
+			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 hidden-md-down" >
+				<div class="login-image plus-pattern  hide-mobile hide-tablet w-col w-col-5 w-col-stack">
+					<div data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="600">
+					<%= image_tag 'pdfz_pdfred.png', class: 'overlay z10', alt: '' %></div>
+					<div class="overlay zbottom login-grid-position" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="600">
+						<%= image_tag 'square-grid.png', class: '', alt: '' %>
+					</div>
+					<div class="plus-pattern clearboard"></div>
+				</div>
+			</div>
 		</div>
 		</div>
 	</div>

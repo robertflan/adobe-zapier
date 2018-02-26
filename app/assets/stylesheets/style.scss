@@ -166,10 +166,17 @@ body, html{
 		color: #fff;
 	}
 	.red-pattern {
-	    background-color: transparent;
-	    background-image: url(red-pattern.gif);
-	    background-position: 0px 100%;
-	    color: #fff;
+		background-color: transparent;
+		background-image: url(red-pattern.gif);
+		background-position: 0px 100%;
+		color: #fff;
+	}
+	.plus-pattern{
+	    width: 100%;
+	    height: 100%;
+	    background-image: url(white-pattern2.png);
+	    background-position: 50% 50%;
+	    background-attachment: fixed;
 	}
 	.convert-icon {
 		width: 8em;
@@ -643,9 +650,9 @@ body, html{
 		margin-top: 100px;
 		text-align: center;
 		background-image: url(plus_strip_bg.jpg);
-	    background-position: 0px 50%;
-	    background-repeat: repeat;
-	    background-attachment: fixed;
+		background-position: 0px 50%;
+		background-repeat: repeat;
+		background-attachment: fixed;
 		.btn{
 			margin-top: 30px;
 		}
@@ -755,101 +762,110 @@ body, html{
 			font-size: 18px;
 			color: #fff;
 		}
-		#login-back{
-			background: url(login-back.png);
-			height: 500px;
-		}
 		.form-group label{
 			color: #FE4F26; 
 		}
-	}
-	#account-header {
-		padding: 40px 0px 40px 0px;
-		background-image: url(white-tile.jpg);
-		h1{
-			text-shadow: -4px 4px 4px #EBECEB;
-			font-weight: 700;
-			font-size: 50px;
+		.overlay.zbottom.login-grid-position {
+			right: -9%;
+			bottom: -37%;
+			position: absolute;
+			z-index: -1;
 		}
-		.go-zapier{    
-			background: url(btn-title.jpg);
-			margin-top: 20px;
-			border-radius: 0;
-			padding: 18px 70px;
-			font-size: 18px;
-			color: #fff;
+		.login-image{
+			position: relative;
 		}
-		.go-zapier-con{
-			margin-top: 30px;
-		}
-	}
-	#billing {
-		.nav-tabs{
-			border-bottom: none;
-		}
-		margin-top: 100px;
-		.nav .nav-item a{
-			display: inline-table;
-			color: #4C565B;
-		}	.nav .nav-account{
-			font-size: 30px;
-			margin-top: -13px;
-			color: #AEAFAE!important;
-		}
-		.nav .active{
-			border-bottom: 3px solid #DA1A24;
-			font-style: bold; 
-		}
-		.container .tab-content{   
-			background: url(white-tile.jpg);
-			margin-top: 20px;
-			border-radius: 0;
-			border: 2px solid #EEEFEE;
-			padding: 18px 70px;
-			font-size: 18px;
-			color: #fff;
-			span{
-				color: #344146;
+		.overlay.z10 {
+			z-index: 10;
+				    /* display: block; */
+				}
+			}
+		#account-header {
+			padding: 40px 0px 40px 0px;
+			background-image: url(white-tile.jpg);
+			h1{
+				text-shadow: -4px 4px 4px #EBECEB;
 				font-weight: 700;
-				text-transform: uppercase;
-				font-size: 30px;
+				font-size: 50px;
 			}
-			img{
-				margin-left: -20px;
-				margin-top: -10px;
-			}
-			.row label{
-				color: #FE4F26; 
-			}
-			.btn{
-				float: right;
+			.go-zapier{    
 				background: url(btn-title.jpg);
+				margin-top: 20px;
 				border-radius: 0;
-				padding: 10px 40px;
+				padding: 18px 70px;
+				font-size: 18px;
 				color: #fff;
 			}
+			.go-zapier-con{
+				margin-top: 30px;
+			}
+		}
+		#billing {
+			.nav-tabs{
+				border-bottom: none;
+			}
+			margin-top: 100px;
+			.nav .nav-item a{
+				display: inline-table;
+				color: #4C565B;
+			}	.nav .nav-account{
+				font-size: 30px;
+				margin-top: -13px;
+				color: #AEAFAE!important;
+			}
+			.nav .active{
+				border-bottom: 3px solid #DA1A24;
+				font-style: bold; 
+			}
+			.container .tab-content{   
+				background: url(white-tile.jpg);
+				margin-top: 20px;
+				border-radius: 0;
+				border: 2px solid #EEEFEE;
+				padding: 18px 70px;
+				font-size: 18px;
+				color: #fff;
+				span{
+					color: #344146;
+					font-weight: 700;
+					text-transform: uppercase;
+					font-size: 30px;
+				}
+				img{
+					margin-left: -20px;
+					margin-top: -10px;
+				}
+				.row label{
+					color: #FE4F26; 
+				}
+				.btn{
+					float: right;
+					background: url(btn-title.jpg);
+					border-radius: 0;
+					padding: 10px 40px;
+					color: #fff;
+				}
+
+			}
 
 		}
-
-	}
-	#invoice{
-		margin-top: 60px;
-		table td{
-			height: 73px;
-		}
-		.right-side {
-		    /* display: -webkit-box; */
-		    display: -webkit-flex;
-		    display: -ms-flexbox;
-		    /* display: flex; */
-		    /* -webkit-box-pack: end; */
-		    /* -webkit-justify-content: flex-end; */
-		    -ms-flex-pack: end;
-		    justify-content: flex-end;
-		    -webkit-box-ordinal-group: 2;
-		    -webkit-order: 1;
-		    -ms-flex-order: 1;
-		    order: 1;
+		#invoice{
+			margin-top: 60px;
+			table td{
+				height: 73px;
+			}
+			.right-side {
+	    /* display: -webkit-box; */
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    /* display: flex; */
+	    /* -webkit-box-pack: end; */
+	    /* -webkit-justify-content: flex-end; */
+	    -ms-flex-pack: end;
+	    justify-content: flex-end;
+	    -webkit-box-ordinal-group: 2;
+	    -webkit-order: 1;
+	    -ms-flex-order: 1;
+	    order: 1;
 		}
 		.invoice-button {
 			border-style: solid;
@@ -1073,7 +1089,7 @@ body, html{
 			#bottom-footer .pdf-container{
 				padding: 20px 30px 10px 30px;
 			}
-	}
+		}
 		ul li{
 			display: inline-block;
 		}
