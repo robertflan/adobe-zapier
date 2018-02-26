@@ -541,6 +541,9 @@
 				position: relative;
 				top: -20px;
 			}
+			#pricing .pricing-free{
+				margin-left: 20px;
+			}
 			#user-login span{
 				font-weight: 600;
 				font-size: 40px;
@@ -627,7 +630,7 @@
 			#banner .banner-container{
 				padding: 10px 20px
 			}
-			#introduction h1, p, h2{
+			#introduction h1, p, h2, h4{
 				text-align: center !important;
 			}
 			#header .logo-img {
@@ -642,6 +645,23 @@
 			#banner .banner-container h1{
 				font-size: 1.5rem !important;
 				text-shadow: -6px 3px 4px #DFE0DF;
+			}
+			#privacy h1, p, h2, h4{
+				text-align: left !important;
+			}
+			#privacy .tab-content .tab-pane{
+				display: block !important;
+				opacity: 1;
+			}
+			#privacy h1{
+				font-size: 24px;
+			}
+			#privacy h2{
+				font-size: 20px !important;
+
+			}
+			#privacy h4{
+				font-size: 18px !important;
 			}
 			.navbar-side-item{
 				font-size: 10px !important;

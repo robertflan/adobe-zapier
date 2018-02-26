@@ -545,57 +545,56 @@ body, html{
 		-o-transition: all linear 0.5s;
 		-webkit-transition: all linear 0.5s; 
 	}
-	#started .container{
-		.content-tile {
-			margin-bottom: 1em;
-			padding: 3em;
-			box-shadow: 0 25px 0 -15px rgba(0, 0, 0, .5);
-			-webkit-transition: all 200ms cubic-bezier(.175, .885, .32, 1.275);
-			transition: all 200ms cubic-bezier(.175, .885, .32, 1.275);
+	#started {
+		.container{
+			.content-tile {
+				margin-bottom: 1em;
+				padding: 3em;
+				box-shadow: 0 25px 0 -15px rgba(0, 0, 0, .5);
+				-webkit-transition: all 200ms cubic-bezier(.175, .885, .32, 1.275);
+				transition: all 200ms cubic-bezier(.175, .885, .32, 1.275);
+			}
+
+			.content-tile:hover {
+			    box-shadow: 0 50px 4px -25px rgba(0, 0, 0, .5);
+			    -webkit-transform: scale(1.04);
+			    -ms-transform: scale(1.04);
+			    transform: scale(1.04);
+			}
 		}
-	}
-	#started .top-container {
-		background-image: url(getstarted-back.jpg);
-		background-repeat: no-repeat !important;
-		background-size: cover !important;
-		height: 500px;
-		padding-top: 30px;
-		background-position-x: -205px;
-	}
-	#started #bottom-container{
-		background-position-y: 370px;
-		background-repeat: no-repeat !important;
-		background-size: cover !important;
-		background-position-x: 15px;
-		margin-top: 30px;
-	}
-	#started .container h2 {
-		margin-top: 30px;
-	}
-	// #started .container .row {
-	// 	div {
-	// 		max-height: 400px;
-	// 		h5{
-	// 			position: relative;
-	// 		}
-	// 		p {
-	// 			margin-top: 45px;
-	// 		}
-	// 	}
-	// }
-	#started .container .row div h5:after {
-		content: '';
-		width: 50px;
-		height: 4px;
-		background: #e45e30;
-		position: absolute;
-		left: 42.5%;
-		bottom: -25px;
-	}
-	#started .existing-div {
-		h5, p{
-			color: #fff;
+		.top-container {
+			background-image: url(getstarted-back.jpg);
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+			height: 500px;
+			padding-top: 30px;
+			background-position-x: -205px;
 		}
+		#bottom-container{
+			background-position-y: 370px;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+			background-position-x: 15px;
+			margin-top: 30px;
+		}
+		.container .row div h5:after {
+			content: '';
+			width: 50px;
+			height: 4px;
+			background: #e45e30;
+			position: absolute;
+			left: 42.5%;
+			bottom: -25px;
+		}
+		.existing-div {
+			h5, p{
+				color: #fff;
+			}
+		}
+		.container h2 {
+			margin-top: 30px;
+		}
+
 	}
 	#list{
 		margin-top: 50px;
@@ -1065,16 +1064,37 @@ body, html{
 			color: #fff;
 		} 
 	}
-	#privacy .nav-tabs .nav-item a{
-		word-wrap: break-word;
-	}
-	#privacy .nav-tabs--left .nav-link {
-		white-space: normal !important;
-		h4{
-			color: #344146 !important;
-			font-size: 20px;
+	#privacy {
+		.nav-tabs .nav-item a{
+			word-wrap: break-word;
+		}
+		.nav-tabs--left .nav-link {
+			white-space: normal !important;
+			h4{
+				color: #344146 !important;
+				font-size: 20px;
+			}
+		}
+		.nav-tabs .nav-link.active{
+			border-left-width: 6px;
+			border-right: 0px;
+			border-top: 0px;
+    		border-left-color: #db1a23;
+		}
+		.nav-tabs--left .nav-link:hover {
+		    background-color: #fff;
+		    color: #ff5026;
+			border-left-width: 6px;
+			border-right: 0px;
+			border-top: 0px;
+			border-bottom: 0px;
+    		border-left-color: #db1a23;
+		}
+		.tab-content .tab-pane h2{
+			padding-left: 10px;
 		}
 	}
+	
 	footer {
 		margin-top: 100px;
 		color: #fff;
