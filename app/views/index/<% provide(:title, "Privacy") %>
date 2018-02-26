@@ -1,0 +1,249 @@
+<% provide(:title, "Privacy") %>
+<section id="privacy">
+	<div class="container">
+		<h1 class="section-title-shadow">Legal Privacy Policy</h1>
+		<p>This website www.pdfzap.me (the “Site”), is owned and operated by Afraxis, Inc. and/or one or more of its affiliates (collectively “PDF ZapMe”, “we”, “us” and/or “our”). This Site is operated by PDF ZapMe and has been created to provide information about our company and its content and data linking platform and related services (together with the Site, the “Service(s)”) to our Service visitors (“you”, “your”). This Privacy Policy sets forth PDF ZapMe’s policy with respect to information including personally identifiable data (“Personal Data”) and other information that is collected from visitors to the Site and Services.</p>
+		
+		<p></p>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 hidden-sm-down">
+				<ul class="nav nav-tabs nav-tabs--vertical nav-tabs--left" role="navigation">
+					<li class="nav-item">
+						<a href="#third-party" class="nav-link" data-toggle="tab" role="tab" aria-controls="third-party"><h4>Third-Party Service Integration</h4></a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#third-party-payment" class="nav-link" data-toggle="tab" role="tab" aria-controls="third-party-payment"><h4>Third-Party Payment Processor</h4></a>
+					</li>
+					<li class="nav-item">
+						<a href="#information" class="nav-link" data-toggle="tab" role="tab" aria-controls="information"><h4>Information We Collect</h4></a>
+					</li>
+					<li class="nav-item">
+						<a href="#our-use" class="nav-link" data-toggle="tab" role="tab" aria-controls="our-use"><h4>Our Use of Your Personal Data and Other Information</h4></a>
+					</li>
+					<li class="nav-item">
+						<a href="#our-disclosure" class="nav-link" data-toggle="tab" role="tab" aria-controls="our-disclosure"><h4>Our Disclosure of Your Personal Data and Other Information</h4></a>
+					</li>
+					<li class="nav-item">
+						<a href="#exclusions" class="nav-link" data-toggle="tab" role="tab" aria-controls="exclusions"><h4>Exclusions</h4></a>
+					</li>
+					<li class="nav-item">
+						<a href="#children" class="nav-link" data-toggle="tab" role="tab" aria-controls="children"><h4>Children</h4></a>
+					</li>
+					<li class="nav-item">
+						<a href="#links-to" class="nav-link" data-toggle="tab" role="tab" aria-controls="links-to"><h4>Links to Other Websites</h4></a>
+					</li>
+					<li class="nav-item">
+						<a href="#security" class="nav-link" data-toggle="tab" role="tab" aria-controls="security"><h4>Security</h4></a>
+					</li>
+					<li class="nav-item">
+						<a href="#changes-to" class="nav-link" data-toggle="tab" role="tab" aria-controls="changes-to"><h4>Changes to PDF ZapMe’s Privacy Policy</h4></a>
+					</li>
+					<li class="nav-item">
+						<a href="#contacting-pdf" class="nav-link" data-toggle="tab" role="tab" aria-controls="contacting-pdf"><h4>Contacting PDF ZapMe</h4></a>
+					</li>
+					<li class="nav-item">
+						<a href="#other-terms" class="nav-link" data-toggle="tab" role="tab" aria-controls="other-terms"><h4>Other Terms<h4></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
+					<div class="tab-content">
+						<div class="tab-pane fadein show active " id="third-party" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Third-Party Service Integration</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p>To use PDF ZapMe, we need to store credentials for third-party services (Gmail, Basecamp, etc). We store credentials encrypted in our database. They are only used to access data you tell us to. We log certain non-identifiable information to provide support and fix problems.</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>Date of Last Revision: January 19, 2018</p>
+									<p>Our Service allows you to integrate and create commands for various online third-party services (“Third-Party Services”). In order to take advantage of this feature, you may need to authenticate, register for or log into Third-Party Services through the Service or on the websites of their respective providers. When you enable linking between or log in to Third-Party Services through the Service, we will collect relevant information necessary to enable the Service to access that Third-Party Service and your data and content contained within that Third-Party Service (“Login Credentials”). We store your Login Credentials long enough to enable linking to the Third-Party Service.</p>
+									<p>When you enable the Service to link content and data between Third-Party Services, the Third-Party Services will provide us with access to certain information that you may have provided to the Third-Party Services, and we will use, store and disclose such information in accordance with this Privacy Policy and the rules you set to govern the linking. However, please remember that the manner in which Third-Party Services use, store and disclose your information is governed by the policies of such Third-Party Services, and PDF ZapMe shall have no liability or responsibility for the privacy practices or other actions of any Third-Party Services that may be enabled within the Service.</p>
+									<p>We may retain certain personally non-identifiable information related to the data or content linked between Third-Party Services (for example, date sent, link configuration, names of the Third-Party Services), for the purpose of improving our Services and as described below in the “Non-Identifiable Data” section.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="third-party-payment" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Third-Party Payment Processor</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>Plain English Terms
+									We last updated this policy January 19, 2018.</p>
+									<p>We use a third party payment processor, Stripe, for all payments. PDF ZapMe does not store credit card details and instead relies on Stripe for this.</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>Date of Last Revision: January 19, 2018</p>
+									<p>We use a third party payment processor to process payments made to us. In connection with the processing of such payments, we do not retain any personally identifiable information or any financial information such as credit card numbers. Rather, all such information is provided directly to our third party processor, Stripe, whose use of your personal information is governed by their privacy policy, which may be viewed at https://stripe.com/us/privacy.</p>
+								</div>
+							</div>
+							
+						</div>
+						<div class="tab-pane fade" id="information" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Information We Collect</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p>We ask for certain information like your name, email address, timezone, and account credentials to use PDF ZapMe. We use this information to run PDF ZapMe and other things mentioned in this Privacy policy (like logging and analytics).</p>
+									<p>For your convenience, we use cookies so you don’t have to log in every time you visit our website.</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>Date of Last Revision: January 19, 2018</p>
+									<p>When you interact with us through the Services, we may collect Personal Data and other information from you, as further described below:</p>
+									<p>Personal Data That You Provide Through the Services: We collect Personal Data from you when you voluntarily provide such information, such as when you contact us with inquiries, respond to one of our surveys, register for access to the PDF ZapMe Services or use certain PDF ZapMe Services. Wherever PDF ZapMe collects Personal Data we make an effort to provide a link to this Privacy Policy. You can choose at any time to opt out by contacting support at contact@PDF ZapMe.com, you can also contact us to opt out of your information being used for purposes other than it was originally collected.</p>
+									<p>By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to the Services, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of PDF ZapMe and the authorized third parties referred to herein located in the United States. The Personal Information that you provide can be accessed at any time through your account or you can contact our customer support at contact@PDF ZapMe.com if you need help accessing your account.</p>
+									<p>Cookies: In operating the Services, we may use a technology called “cookies.” A cookie is a piece of information that the computer that hosts our Services gives to your browser when you access the Services. Our cookies help provide additional functionality to the Services and help us analyze Services usage more accurately. For instance, our Services may set a cookie on your browser that allows you to access the Services without needing to remember and then enter a password more than once during a visit to the Services. In all cases in which we use cookies, we will not collect Personal Data except with your permission. On most web browsers, you will find a “help” section on the toolbar. Please refer to this section for information on how to receive notification when you are receiving a new cookie and how to turn cookies off. We recommend that you leave cookies turned on because they allow you to take advantage of some of the Services’s features.</p>
+									<p>Aggregated Personal Data: In an ongoing effort to better understand and serve the users of the PDF ZapMe Services, PDF ZapMe often conducts research on its customer demographics, interests and behavior based on the Personal Data and other information provided to us. This research may be compiled and analyzed on an aggregate basis, and PDF ZapMe may share this aggregate data with its affiliates, agents and business partners. This aggregate information does not identify you personally. PDF ZapMe may also disclose aggregated user statistics in order to describe our services to current and prospective business partners, and to other third parties for other lawful purposes.We will keep any information that you provide to us until such time as you delete your account with the PDF ZapMe Service.</p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="our-use" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Our Use of Your Personal Data and Other Information</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p>PDF ZapMe won’t sell or rent your personal information to a third party. Primarily, we use personal data to run PDF ZapMe. We may use personal data to provide you with predictions about other services you might be interested in on PDF ZapMe. If we intend to use your personal data in a way we have not mentioned, we will let you know when we collect that information.</p>
+									<p>Sometimes we aggregate user data anonymously to understand our customer base better.</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>Date of Last Revision: January 19, 2018</p>
+									<p>PDF ZapMe will not sell or rent to any third party any of the personal information or data that you provide to us. PDF ZapMe uses the Personal Data you provide in a manner that is consistent with this Privacy Policy. If you provide Personal Data for a certain reason, we may use the Personal Data in connection with the reason for which it was provided. For instance, if you contact us by email, we will use the Personal Data you provide to answer your question or resolve your problem. Also, if you provide Personal Data in order to obtain access to the PDF ZapMe Services, we will use your Personal Data to provide you with access to such services and to monitor your use of such services. PDF ZapMe and its subsidiaries and affiliates (the “PDF ZapMe Related Companies”) may also use your Personal Data and other personally non-identifiable information collected through the Services to help us improve the content and functionality of the Services, to better understand our users and to improve the PDF ZapMe Services. PDF ZapMe and its affiliates may use this information to contact you in the future to tell you about services we believe will be of interest to you. If we do so, each communication we send you will contain instructions permitting you to “opt-out” of receiving future communications. In addition, if at any time you wish not to receive any future communications or you wish to have your name deleted from our mailing lists, please contact us as indicated below.</p>
+									<p>If PDF ZapMe intends on using any Personal Data in any manner that is not consistent with this Privacy Policy, you will be informed of such anticipated use prior to or at the time at which the Personal Data is collected.</p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="our-disclosure" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Our Disclosure of Your Personal Data and Other Information</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p>We don’t sell your personal data. If we work with partners or contractors, they may have limited access to your personal data but only so much to do their job.</p>
+									<p>If we sell the company, personal data may be included in the transfer.</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>Date of Last Revision: January 19, 2018</p>
+									<p>You can visit the Services without providing any Personal Data. If you choose not to provide any Personal Data, you may not be able to use certain PDF ZapMe Services.</p>
+									<p>PDF ZapMe is not in the business of selling your information. We consider this information to be a vital part of our relationship with you. There are, however, certain circumstances in which we may share your Personal Data with certain third parties without further notice to you, as set forth below:</p><p style="text-align: justify;"><em><strong>Business Transfers:</strong> As we develop our business, we might sell or buy businesses or assets. In the event of a corporate sale, merger, reorganization, dissolution or similar event, Personal Data may be part of the transferred assets. In cases of onward transfer of personal information to third parties of data of EU and Swiss individuals received pursuant to the EU-U.S. and Swiss-U.S. Privacy Shield, PDF ZapMe remains liable.</em></p>
+									<p style="text-align: justify;"><em><strong>Related Companies:</strong> We may also share your Personal Data with our Related Companies for purposes consistent with this Privacy Policy</em></p>
+									<p style="text-align: justify;"><em><strong>Agents, Consultants and Related Third Parties:</strong> PDF ZapMe, like many businesses, sometimes hires other companies to perform certain business-related functions. Examples of such functions include mailing information, maintaining databases and processing payments. When we employ another company to perform a function of this nature, we only provide them with the information that they need to perform their specific function.</em></p>
+									<p style="text-align: justify;"><em><strong>Legal Requirements:</strong> PDF ZapMe may disclose your Personal Data if required to do so by law or in the good faith belief that such action is necessary to (i) comply with a legal obligation, (ii) protect and defend the rights or property of PDF ZapMe, (iii) act in urgent circumstances to protect the personal safety of users of the Services or the public, or (iv) protect against legal liability.</em></p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="exclusions" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Exclusions</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p style="text-align: justify;">This privacy policy only applies to private information we collect. If you post information in a public place, like our support forums, this is public information and can be shared and reproduced. Similarly, if you join a PDF ZapMe team account, certain of your personal information may be available to the team account holder and other team members.</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>Date of Last Revision: January 19, 2018</p>
+									<p style="text-align: justify;"><em>This Privacy Policy does not apply to any Personal Data collected by PDF ZapMe other than Personal Data collected through the Services. This Privacy Policy shall not apply to any unsolicited information you provide to PDF ZapMe through the Services or through any other means. This includes, but is not limited to, information posted to any public areas of the Services, such as bulletin boards (collectively, “Public Areas”), any ideas for new products or modifications to existing products, and other unsolicited submissions (collectively, “Unsolicited Information”). All Unsolicited Information shall be deemed to be non-confidential and PDF ZapMe shall be free to reproduce, use, disclose, and distribute such Unsolicited Information to others without limitation or attribution.</em></p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="children" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Children</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p>You must be 13 years old to use PDF ZapMe.</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>Date of Last Revision: January 19, 2018</p>
+									<p>PDF ZapMe does not knowingly collect Personal Data from children under the age of 13. If you are under the age of 13, please do not submit any Personal Data through the Services. We encourage parents and legal guardians to monitor their children’s Internet usage and to help enforce our Privacy Policy by instructing their children never to provide Personal Data on the Services without their permission. If you have reason to believe that a child under the age of 13 has provided Personal Data to PDF ZapMe through the Services, please contact us, and we will endeavor to delete that information from our databases.</p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="links-to" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Links to Other Websites</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p>We link to a lot of third-party websites. Our privacy policy only governs our own website.</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>This Privacy Policy applies only to the Services. The Services may contain links to other web sites not operated or controlled by PDF ZapMe (the “Third-Party Sites”). The policies and procedures we described here do not apply to the Third-Party Sites. The links from the Services do not imply that PDF ZapMe endorses or has reviewed the Third-Party Sites. We suggest contacting those sites directly for information on their privacy policies.</p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="security" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Security</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p>We take many steps to ensure your private information and account credentials are safe, including encryption and requiring two-factor authentication for our staff. To this end, if you find a security problem, contact us and we will fix it immediately. Keep in mind, emails and communications with us are not encrypted.</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>Date of Last Revision: January 19, 2018</p>
+									<p>PDF ZapMe takes reasonable steps to protect the Personal Data provided via the Services from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. However, no Internet or email transmission is ever fully secure or error free. In particular, email sent to or from the Services may not be secure. Therefore, you should take special care in deciding what information you send to us via email. Please keep this in mind when disclosing any Personal Data to PDF ZapMe via the Internet.</p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="changes-to" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Changes to PDF ZapMe’s Privacy Policy</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p>If anything changes, we will let you know at least 14 days ahead of time via this website or an email.</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>Date of Last Revision: January 19, 2018</p>
+									<p>The Services and our business may change from time to time. As a result, at times it may be necessary for PDF ZapMe to make changes to this Privacy Policy. PDF ZapMe reserves the right to update or modify this Privacy Policy at any time and from time to time. If we do this, we will post the changes to this Privacy Policy on this page and will indicate at the top of this page the date these terms were last revised. We will also notify you, either through the Service user interface, in an email notification or through other reasonable means. Please review this policy periodically, and especially before you provide any Personal Data. Any such changes will become effective no earlier than fourteen (14) days after they are posted, except that changes addressing new functions of the Service or changes made for legal reasons will be effective immediately. This Privacy Policy was last updated on the date indicated above. Your continued use of the Service after the date any such changes become effective constitutes your acceptance of the new Privacy Policy.</p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="contacting-pdf" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Contacting PDF ZapMe</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p>Got questions? We want to hear from you! Contact us at support@PDF ZapMe.com</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Legal Terms</h4>
+									<p>Date of Last Revision: January 19, 2018</p><p style="text-align: justify;"><em>To keep your Personal Data accurate, current, and complete, please contact us as specified below. We will take reasonable steps to update or correct Personal Data in our possession that you have previously submitted via the Services. Please also feel free to contact us if you have any questions about PDF ZapMe’s Privacy Policy or the information practices of the Services.</em></p>
+									<p style="text-align: justify;"><em>All disputes arising out of or relating to these Terms of Service will be submitted to the exclusive jurisdiction of a court of competent jurisdiction located in Wilmington, Delaware, and each party irrevocably consents to such personal jurisdiction and waives all objections to this venue.</em></p>
+									<p style="text-align: justify;"><em>You may contact us as follows: <a href="mailto:support@PDF ZapMe.com">support@PDF ZapMe.com</a></em></p>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="other-terms" role="tabpanel">
+							<div class="row">
+								<h2 class="section-title">Changes to PDF ZapMe’s Privacy Policy</h2>
+								<div class="col-lg-6 col-md-6 col-xs-12">
+									<h4>Plain English Terms</h4>
+									<p>We last updated this policy January 19, 2018.</p>
+									<p>Your access to and use of the Services is subject to the Terms of Service at https://pdfzap.me/terms-and-conditions/</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>

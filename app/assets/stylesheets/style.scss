@@ -1079,7 +1079,9 @@ body, html{
 			border-left-width: 6px;
 			border-right: 0px;
 			border-top: 0px;
+			border-bottom: 0px;
     		border-left-color: #db1a23;
+    		-webkit-transition: all linear 0.3s;
 		}
 		.nav-tabs--left .nav-link:hover {
 		    background-color: #fff;
@@ -1089,6 +1091,7 @@ body, html{
 			border-top: 0px;
 			border-bottom: 0px;
     		border-left-color: #db1a23;
+   			-webkit-transition: all linear 0.3s;
 		}
 		.tab-content .tab-pane h2{
 			padding-left: 10px;
