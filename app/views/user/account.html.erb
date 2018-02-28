@@ -36,6 +36,46 @@
 					<div class="tab-content">
 						<div class="tab-pane fadein show active" id="profile" role="tabpanel">
 							<div class="container">
+								<span class="billing-title">My profile</span>
+								<div class="row">
+									<div class="col-lg-4 col-xs-12">
+										<div class="form-group">
+											<label for="useremail">EMAIL ADDRESS</label>
+											<input type="email" class="form-control" id="useremail" placeholder="hello@example">
+										</div>
+									</div>
+									<div class="col-lg-4 col-xs-12">
+										<div class="form-group">
+											<label for="firstname">First Name</label>
+											<input type="text" class="form-control" id="firstname" placeholder="john">
+										</div>
+									</div>
+									<div class="col-lg-4 col-xs-12">
+										<div class="form-group">
+											<label for="lastname">Last Name</label>
+											<input type="text" class="form-control" id="lastname" placeholder="Doe">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-xs-12">
+										<div class="form-group">
+											<label for="changeps">CHANGE PASSWORD</label>
+											<input type="password" class="form-control" id="changeps" placeholder="">
+										</div>
+									</div>
+									<div class="col-lg-6 col-xs-12">
+										<div class="form-group">
+											<label for="confirmps">RETYPE PASSWORD</label>
+											<input type="password" class="form-control" id="confirmps" placeholder="">
+										</div>
+									</div>
+								</div>
+								<button class="btn ">Update Profile</button>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="profile" role="tabpanel">
+							<div class="container">
 								<%= image_tag 'glyphicons-174-play.png', class: 'rotate-icon', alt: '' %>
 								<span class="billing-title">My profile</span>
 								<div class="row">
@@ -61,13 +101,13 @@
 								<div class="row">
 									<div class="col-lg-6 col-xs-12">
 										<div class="form-group">
-											<label for="changeps">EMAIL ADDRESS</label>
+											<label for="changeps">CHANGE PASSWORD</label>
 											<input type="password" class="form-control" id="changeps" placeholder="">
 										</div>
 									</div>
 									<div class="col-lg-6 col-xs-12">
 										<div class="form-group">
-											<label for="confirmps">EMAIL ADDRESS</label>
+											<label for="confirmps">RETYPE PASSWORD</label>
 											<input type="password" class="form-control" id="confirmps" placeholder="">
 										</div>
 									</div>
@@ -75,45 +115,41 @@
 								<button class="btn ">Update Profile</button>
 							</div>
 						</div>
-
-						<div class="tab-pane fade" id="profile" role="tabpanel">
-							<div class="card">
-								<div class="card-header">
-									<h1>Profile</h1>
-								</div>
-								<div class="card-block">
-									<form>
-										<div class="form-group">
-											<label for="exampleInputName">Name</label>
-											<input type="text" class="form-control" id="exampleInputName" aria-describedby="name" >
-										</div>
-										<div class="form-group">
-											<label for="exampleInputEmail1">Email address</label>
-											<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-											<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-										</div>
-										<div class="form-group">
-											<label for="exampleInputPassword1">Password</label>
-											<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-										</div>
-										<div class="form-group">
-											<label for="confirmPassword1">Confirm Password</label>
-											<input type="password" class="form-control" id="confirmPassword1" placeholder="Confirm Password">
-										</div>
-										<div class="form-check">
-											<input type="checkbox" class="form-check-input" id="exampleCheck1">
-											<label class="form-check-label" for="exampleCheck1">Check me out</label>
-										</div>
-										<button type="submit" class="btn membership-btn btn-block">Save</button>
-									</form>
-								</div>
-							</div>
-
-						</div>
 						<div class="tab-pane fade" id="bill-info" role="tabpanel">
-							<div class="card text-center">
-								<div class="card-header">
-									<h1> Update Billing info</h1>
+							<div class="container">
+<!-- 								<%= image_tag 'glyphicons-174-play.png', class: 'rotate-icon', alt: '' %>
+ -->								<span class="billing-title">BILLING INFORMATION</span>
+								<div class="row">
+									<div class="col-lg-6 col-xs-12">
+										<div class="form-group">
+											<label for="card-name">NAME AS IT APPEARS ON YOUR CARD</label>
+											<input type="text" class="form-control" id="card-name" placeholder="Jonathan A doe">
+										</div>
+									</div>
+									<div class="col-lg-6 col-xs-12">
+										<div class="form-group">
+											<label for="card-number">card name</label>
+											<input type="number" class="form-control" id="card-number" placeholder="**** **** **** 8888">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-4 col-xs-12">
+										<div class="form-group">
+											<label for="security-code">security code</label>
+											<input type="password" class="form-control" id="security-code" placeholder="***">
+										</div>
+									</div>
+									<div class="col-lg-4 col-xs-12">
+										<div class="form-group">
+											<label for="expiration-date">expiration date</label>
+											<input type="text" class="form-control" id="expiration-date" placeholder="01/23">
+										</div>
+									</div>
+									<div class="col-lg-4 col-xs-12">
+										<label for="expiration-date"></label>
+										<button class="btn " style="margin-top: 30px">Update Profile</button>
+									</div>
 								</div>
 							</div>
 						</div>
