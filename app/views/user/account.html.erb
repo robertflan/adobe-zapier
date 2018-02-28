@@ -134,21 +134,27 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-lg-4 col-xs-12">
+									<div class="col-lg-3 col-xs-12">
 										<div class="form-group">
 											<label for="security-code">security code</label>
 											<input type="password" class="form-control" id="security-code" placeholder="***">
 										</div>
 									</div>
-									<div class="col-lg-4 col-xs-12">
+									<div class="col-lg-3 col-xs-12">
 										<div class="form-group">
 											<label for="expiration-date">expiration date</label>
 											<input type="text" class="form-control" id="expiration-date" placeholder="01/23">
 										</div>
 									</div>
-									<div class="col-lg-4 col-xs-12">
+									<div class="col-lg-4 col-xs-12 payment-container" style="margin-top: 30px">
+							            <span class="payment" style="margin-left: 15px"><a href="#"><%= image_tag 'visa-icon.png', class: 'visa', alt: 'visa' %></a></span>
+							            <span class="payment" style="margin-left: 15px"><a href="#"><%= image_tag 'master-icon.png', class: 'master', alt: 'master' %></a></span>
+							            <span class="payment" style="margin-left: 15px"><a href="#"><%= image_tag 'express-icon.png', class: 'express', alt: 'express' %></a></span>
+							            <span class="payment" style="margin-left: 15px"><a href="#"><%= image_tag 'discover-icon.png', class: 'discover', alt: 'discover' %></a></span>
+						   			</div>
+									<div class="col-lg-2 col-xs-12">
 										<label for="expiration-date"></label>
-										<button class="btn " style="margin-top: 30px">Update Profile</button>
+										<button class="btn " style="margin-top: 5px">Update Billing</button>
 									</div>
 								</div>
 							</div>
