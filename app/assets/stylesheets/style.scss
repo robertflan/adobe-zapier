@@ -697,8 +697,14 @@ body, html{
 	#pricing{
 		margin-top: 100px;
 		padding-top: 120px;
-		.row{
-			margin-top: -60px;
+		.pricing-main-container{
+			margin-top: 60px;
+			.row{
+				position: relative;
+				.col-md-8{
+					float: right;
+				}
+			}
 		}
 		h2{
 			text-transform: uppercase;
@@ -706,6 +712,7 @@ body, html{
 		}
 		p{
 			color: #fff;
+			font-size: 20px;
 		}
 		.container h2.price{
 			width: 140px;
@@ -714,8 +721,6 @@ body, html{
 			border: 3px solid #E9EAE9;
 			font-size: 110px;
 			color: #344146;
-			position: relative;
-			bottom: -110px;
 			font-weight: 700;
 			z-index: 100;
 			background: #fff;
@@ -725,12 +730,14 @@ body, html{
 			}
 		}
 		.card-block{
-			padding-bottom: 50px;
+			.price-container{
+				position: absolute;
+				top: -50px;
+			}
 			.btn{
 				border-radius: 0;
 				border: 3px solid #E2E3E2;
 				color: #344146;
-				font-weight: 500;
 				padding: 10px 40px;
 				background: #fff;
 			}
@@ -748,7 +755,9 @@ body, html{
 			position: relative;
 			top: -52px;
 		}
-		
+		.header-block{
+			min-height: 147px;
+		}
 	}
 	#user-login{
 		span{
