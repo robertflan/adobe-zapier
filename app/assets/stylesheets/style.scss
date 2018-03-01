@@ -107,7 +107,6 @@ body, html{
 		-ms-transform: translate(0px, 10px);
 		transform: translate(0px, 10px);
 		-webkit-transition: all linear 0.3s;
-		color: #ff5026;
 	}
 	a:hover {
 		color: #ff5026;
@@ -538,6 +537,7 @@ body, html{
 		color: #fff;
 		padding: 18px 70px;
 		box-shadow: 0 16px 0 -8px rgba(0, 0, 0, .4);
+		font-size: 1.25em;
 	}
 	.pdf-btn:hover{
 		cursor: pointer;
@@ -546,9 +546,11 @@ body, html{
 		-moz-transition: all linear 0.5s;
 		-ms-transition: all linear 0.5s;
 		-o-transition: all linear 0.5s;
-		-webkit-transition: all linear 0.5s; 
+		-webkit-transition: all linear 0.5s;
+		color: #fff; 
 	}
 	#started {
+		margin-top: 5em;
 		.container{
 			.content-tile {
 				margin-bottom: 1em;
