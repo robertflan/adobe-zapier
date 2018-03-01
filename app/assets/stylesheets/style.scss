@@ -808,6 +808,9 @@ body, html{
 			.nav .nav-item a{
 				display: inline-table;
 				color: #4C565B;
+				border-left: none;
+			    border-right: none;
+			    border-top: none;
 			}	.nav .nav-account{
 				font-size: 30px;
 				margin-top: -13px;
