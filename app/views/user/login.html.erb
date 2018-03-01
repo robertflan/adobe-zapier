@@ -7,17 +7,17 @@
 				<span>Good to see you</span>
                  <%= image_tag 'emotion.png', class: '', alt: '' %>
 				<p>You know...I've been doing my PDF think.It's been smooth automatin'</p>
-				<form>
+				<form action="/account">
 				  <div class="form-group">
 				    <label for="useremail">EMAIL ADDRESS</label>
-				    <input type="email" class="form-control" id="useremail" placeholder="hello@example">
+				    <input type="email" class="form-control" id="useremail" placeholder="hello@example" required="">
 				  </div>
 				  <div class="form-group">
 				    <label for="userpassword">PASSWORD</label>
-				    <input type="password" class="form-control" id="userpassword" placeholder="">
+				    <input type="password" class="form-control" id="userpassword" placeholder="" required="" minlength="8">
 				  </div>
+         		 <%= button_to 'Login', account_path, class: 'btn black-btn'%>
 				</form>
-         		 <%= link_to 'Login', account_path, class: 'btn' %>
 			</div>
 			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 hidden-md-down" >
 				<div class="login-image plus-pattern  hide-mobile hide-tablet w-col w-col-5 w-col-stack">

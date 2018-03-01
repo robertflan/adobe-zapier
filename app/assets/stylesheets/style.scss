@@ -1152,9 +1152,18 @@ body, html{
 		}
 		.find-us{
 			font-size: 30px;
+		    text-transform: uppercase;
+		    vertical-align: middle;
+		    word-spacing: 1px;
+		    letter-spacing: 5px;
+		    font-weight: 700;
+		    margin-right: 0.5em;
 		}
 		.find-us-on{
 			margin-top: 30px;
+		}
+		.social-link{
+			margin-right: 1em;
 		}
 	}
 /* account page*/
