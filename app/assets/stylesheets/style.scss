@@ -114,7 +114,7 @@ body, html{
 	.black-btn{
 		color: #fff;
 		font-weight: 700;
-    	font-size: 1.25em;
+    	font-size: 22px;
 	}
 	.black-btn:hover{
 		box-shadow: 0 9px 0 -8px rgba(0, 0, 0, .4);
@@ -492,8 +492,8 @@ body, html{
 		background: url(btn-title.jpg);
 		margin-top: 20px;
 		border-radius: 0;
-		padding: 18px 70px;
-		font-size: 18px;
+		padding: 16px 70px;
+		font-size: 22px;
 	}
 	.login-shadow {
 		background-color: #CBCCCB;
@@ -683,6 +683,9 @@ body, html{
 		h1, p{
 			color: #fff;
 			padding-bottom: 30px;
+		}
+		p{
+			font-size: 1.25em;
 		}
 		.btn{
 			background: url(btn-title.jpg);
