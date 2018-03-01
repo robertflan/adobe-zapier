@@ -114,6 +114,8 @@ body, html{
 	}
 	.black-btn{
 		color: #fff;
+		font-weight: 700;
+    	font-size: 1.25em;
 	}
 	.black-btn:hover{
 		box-shadow: 0 9px 0 -8px rgba(0, 0, 0, .4);
@@ -121,7 +123,7 @@ body, html{
 		-ms-transform: translate(0px, 10px);
 		transform: translate(0px, 10px);
 		-webkit-transition: all linear 0.3s;
-		color: #ff5026;
+		color: #fff;
 	}
 	.main-container{
 		margin-top: 120px;
@@ -485,6 +487,7 @@ body, html{
 	#banner .banner-container p{
 		margin-top: 60px;
 		color: #fff;
+		font-size: 1.25em;
 	}
 	#banner .btn {
 		background: url(btn-title.jpg);
@@ -682,8 +685,6 @@ body, html{
 			background: url(btn-title.jpg);
 			background-repeat: repeat-x;
 			padding: 17px 80px;
-			font-size: 18px;
-			font-weight: 600;
 		}
 	}
 	#pricing{
