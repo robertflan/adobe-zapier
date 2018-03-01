@@ -858,24 +858,35 @@ body, html{
 			table td{
 				height: 73px;
 			}
-			.right-side {
-	    /* display: -webkit-box; */
-	    display: -webkit-flex;
-	    display: -ms-flexbox;
-	    /* display: flex; */
-	    /* -webkit-box-pack: end; */
-	    /* -webkit-justify-content: flex-end; */
-	    -ms-flex-pack: end;
-	    justify-content: flex-end;
-	    -webkit-box-ordinal-group: 2;
-	    -webkit-order: 1;
-	    -ms-flex-order: 1;
-	    order: 1;
+		.nav .nav-item a{
+			display: inline-table;
+			color: #4C565B;
+			border-left: none;
+		    border-right: none;
+		    border-top: none;
 		}
+		.nav .active {
+		    border-bottom: 3px solid #DA1A24;
+		    font-style: bold;
+		}
+		.right-side {
+		    /* display: -webkit-box; */
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    /* display: flex; */
+		    /* -webkit-box-pack: end; */
+		    /* -webkit-justify-content: flex-end; */
+		    -ms-flex-pack: end;
+		    justify-content: flex-end;
+		    -webkit-box-ordinal-group: 2;
+		    -webkit-order: 1;
+		    -ms-flex-order: 1;
+		    order: 1;
+			}
 		.invoice-button {
-			border-style: solid;
-			border-width: 2px 2px 2px 1px;
-			border-color: #fff;
+				border-style: solid;
+				border-width: 2px 2px 2px 1px;
+				border-color: #fff;
 		}
 		.invoice-button {
 			position: static;
