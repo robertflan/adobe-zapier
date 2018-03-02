@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<span class="register-title">Let's get it started in here</span>
-                 <%= image_tag 'emotion.png', class: '', alt: '' %>
+                 <%= image_tag 'emotion.png', class: 'happy-emoj', alt: '' %>
 				<p>You're just seconds away from your free trial access to all our features, automations and more.</p>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -36,7 +36,7 @@
 							   	<div class="col-lg-6 col-xs-12">
 								  <div class="form-group">
 								    <label for="card_number">card number</label>
-								    <input type="text" class="form-control" id="card_number" placeholder="">
+								    <input type="text" class="form-control" id="card_number" placeholder="**** **** **** 8888">
 								  </div>
 							   	</div>
 						   </div>
@@ -44,13 +44,13 @@
 						   		<div class="col-lg-3 col-xs-12">
 								  <div class="form-group">
 								    <label for="security_code">security code</label>
-								    <input type="text" class="form-control" id="security_code" placeholder="">
+								    <input type="text" class="form-control" id="security_code" placeholder="***">
 								  </div>
 						   		</div>
 						   		<div class="col-lg-3 col-xs-12">
 								  <div class="form-group">
 								    <label for="expiration">expiration date</label>
-								    <input type="text" class="form-control" id="expiration" placeholder="">
+								    <input type="text" class="form-control" id="expiration" placeholder="01/23">
 								  </div>
 						   		</div>
 						   		<div class="col-lg-4 col-xs-12 payment-container">
@@ -60,7 +60,7 @@
 						            <span class="payment"><%= image_tag 'amex.png', class: 'discover', alt: 'discover' %></span>
 						   		</div>
 						   		<div class="col-lg-2 col-xs-12 confirm">
-         		 				<%= link_to 'Confirm ', confirm_path, class: 'btn' %>
+         		 				<%= link_to 'Confirm ', confirm_path, class: 'btn black-btn' %>
 						   		</div>
 						   </div>
 						 </div>
